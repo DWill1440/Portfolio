@@ -80,11 +80,12 @@
         background-size: cover;
         position: relative;
     }
+    .headshot {
+        height: 100%;
+        margin-left: 15%;
+    }
     .hero img {
-        float: left;
-        margin-top: 29%;
-        height: 300px;
-        width: 300px;
+        max-height: 100%;
     }
 
     .cool-title {
@@ -114,6 +115,7 @@
         font-size: 30px;
         flex: 0 0 20%;
         border-right: 3px solid black;
+        padding-right: 10px;
         
     }
     .flex div {
@@ -185,7 +187,7 @@
         display: flex;
         align-items: flex-end;
     }
-
+    
     .grid-item:first-child {
         grid-column: span 8;
         grid-row: span 2;
@@ -197,7 +199,7 @@
 
     #contact-me {
         padding: 20px 35px;
-        background-color: var(--tertiary-color);
+        background-color: white;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -208,11 +210,15 @@
         color: var(--primary-color);
         }
     
-    .contact nav {
+    .contact nav ul {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
-        flex-wrap: wrap;
+       /* flex-wrap: wrap;*/
         align-items: center;
     }
     
+    .contact li {
+        list-style: none;
+    }
     
