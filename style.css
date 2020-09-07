@@ -165,7 +165,7 @@
   }
 
     .project-1{
-        background-image: url("./images/run-buddy.PNG");
+        background-image: url("./images/instartist.PNG");
         background-size: cover;
     }
 
@@ -174,18 +174,22 @@
         background-size: cover;
         
     }
-
     .project-3{
+        background-image: url("./images/pet-tinder.PNG");
+        background-size: cover;
         
     }
-
     .project-4{
+        background-image: url("./images/run-buddy.PNG");
+        background-size: cover;
+        
+    }
+    .project-5{
+        background-image: url("./images/git-it-done.PNG");
+        background-size: cover;
         
     }
 
-    .project-5{
-        
-    }
 
     .grid {
         
